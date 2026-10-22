@@ -1,7 +1,5 @@
-from card import Card
+from loader import load_data
 
-cards = [
-    Card("blue", "kék", "colors"),
+cards = load_data("data/sample_vocab.csv")
 
-]
-
+print(len(cards))
