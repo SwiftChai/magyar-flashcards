@@ -11,9 +11,11 @@ flashcard_model = genanki.Model(
         {
             'name': 'Card 1',
             'qfmt': '{{English}}',
-            'afmt': '{{Hungarian}}',
+            'afmt': '{{Hungarian}}{{tts hu_HU:Hungarian}}',
         },
-    ])
+    ],
+#add css
+)
 
 
 def build_deck(cards, output_path):
